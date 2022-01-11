@@ -1,0 +1,298 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+a{
+  color:#AFAE04;
+  text-decoration:none;
+}
+
+h1 , h2{
+  color:#8fae6a;
+}
+
+body{
+  background: url(../img/OG41-wallpaper.jpg) center top #000000 no-repeat;
+  font-family: Trebuchet MS;
+  font-size: 13px;
+  color: #ffffff; 
+}
+
+/* MAINLAYOUT */
+#page{
+  margin: 0 auto;
+  width: 1078px;  
+}
+
+#toparea{
+  width: 100%;
+  height: 231px;
+}
+
+#navigation{
+  background: url(../img/OG41-menu.png) no-repeat;
+  width: 740px;
+  height: 64px;
+  float: left;
+}
+
+#navigationlist li{
+  list-style: none;
+  float: left;
+  padding: 15px 0px 0px 64px;
+}
+
+#navigationlist li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navigationlist li a.active,#navigationlist li a.act{
+  text-decoration: underline;
+}
+
+#footer{
+  background: url(../img/OG41-footer-bg.png) no-repeat;
+  padding:30px 0 0px 0;
+  text-align: center;
+  width: 978px;
+  height: 206px;
+  font-weight: bold;
+  color: #fdfeff;
+}
+
+#footerlist ul{
+  display: inline;
+}
+
+#footerlist li{
+  list-style: none;
+  display:inline;
+  padding: 15px 0px 0px 64px;
+}
+
+#footerlist li a{
+  color: #fdfeff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footerlist li a.active,#footerlist li a.act{
+  text-decoration: underline;
+}
+
+#breadcrumb{
+  width: 100%;
+  float: left;
+}
+
+#breadcrumb li{
+  list-style: none;
+  float: left;
+  padding: 0px 0px 0px 5px;
+}
+
+#breadcrumb li a{
+  color: #aea797;
+  text-decoration:none;
+  border-bottom:1px dotted;
+}
+
+#breadcrumb li a.active{
+  color: #adc36e;
+}
+
+#subpages{
+  position: relative;
+  left: 20px;
+  top: 4px;
+}
+
+#subpages li{
+  list-style: square;
+  float: left;
+  padding: 0px 22px 0px 0px;
+}
+
+#subpages li a{
+  color:#ffffff;
+}
+
+#loginbox{
+  background: url(../img/OG41-loginbox.png) no-repeat;
+  width: 220px;
+  height: 198px;
+  position: relative;
+  top: 0px;
+  left:19px;
+  float: left;
+}
+
+#loginform{
+  position: relative;
+  top: 4px;
+  left: 52px;
+  color: #fef5ee
+}
+
+.loginfield{
+  width: 122px;
+}
+
+#logo{
+  position: relative;
+  top: -127px;
+  width: 500px;
+  height: 153px;
+}
+
+#banner{
+  width:582px;
+  height:65px;
+  background: url(../img/OG41-Subnavibox.png) no-repeat;
+  padding: 15px 0px 0px 15px;
+  margin:12px 0px 0px 8px;
+}
+
+#content{
+  background: url(../img/OG41-content-head.png) no-repeat;
+  padding: 20px 0px 0px 0px;
+}
+
+#content-background{
+  background: url(../img/OG41-content-bg.png) repeat-y;
+  padding: 0px 0 0 19px;
+  min-height:1110px;
+}
+
+#left{
+  width: 590px;
+  float: left;
+}
+
+#leftcontent{
+  padding-left: 10px;
+}
+
+#right{
+  width: 310px;
+  float: left;
+  padding: 14px 0px 0px 18px;
+}
+
+#buygold{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.topic-box{
+  margin:0px 0px 20px 5px;
+}
+
+.topic-head{
+  background: url(../img/OG41-hot-box-309px-head.png) no-repeat;
+  width: 309px;
+  height: 6px;
+  margin-top: 9px;
+}
+
+.topic-body{
+  background: url(../img/OG41-hot-box-309px-body.png) repeat-y;
+  width: 279px;
+  padding: 5px 15px 0px 15px;
+}
+
+.topic-footer{
+  background: url(../img/OG41-hot-box-309px-footer.png) no-repeat;
+  width: 309px;
+  height: 6px;
+}
+
+.topic-headline{
+  color:#ffffff;
+}
+
+.topic-date{
+  color: #aba89f;
+  float: left;
+  padding: 0px 10px 0px 0px;
+}
+
+.topic-row{
+  padding: 0px 0px 8px 0px;
+}
+
+.topic-row a{
+  color: #afae04;
+  text-decoration: none;
+}
+
+#leftcontent-head{
+  background: url(../img/OG41-content-box-head.png);
+  width: 580px;
+  height: 6px;
+  margin: 15px 0px 0px 10px;
+}
+
+#leftcontent-body{
+  background: url(../img/OG41-content-box-body.png) repeat-y;
+  width: 520px;
+  margin: 0px 0px 0px 10px;
+  padding: 0px 30px 0px 30px;
+}
+
+#leftcontent-footer{
+  background: url(../img/OG41-content-box-footer.png);
+  width: 580px;
+  height: 6px;
+  margin: 0px 0px 15px 10px;
+}
+
+
+#leftcontent .csc-textpic{
+  background:url(../img/OG41-trennlinie.png) bottom no-repeat;
+  padding-bottom:20px;
+}
+
+DIV.csc-textpic-imagewrap{
+  padding: 55px 0px 0px 0px;
+}
+
+.csc-firstHeader a, h1 a{
+  text-decoration:underline;
+  color: #8dae69;
+  padding: 0px 0px 12px 0px;
+}
+
+#right .csc-default, #right DIV.csc-textpic-imagewrap{
+  padding:0px;
+  margin: 0px;
+  background: none;
+  text-align: left;
+}
+
+#right DIV.csc-textpic DIV.csc-textpic-single-image IMG{
+  margin-bottom: 8px;
+}
+
+.bodytext{
+  padding:20px 0px 0px 0px;
+}
+
+/* END MAINLAYOUT */
+
+/* SPECIAL CLASSES */
+.clear{
+  clear: both;
+}
+/* END SPECIAL CLASSES */
+
+.formspace{
+  height:5px;
+}
+
+#signonLoginButton{
+  margin-top: 10px;
+}

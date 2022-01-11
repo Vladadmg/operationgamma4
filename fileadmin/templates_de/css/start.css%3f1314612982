@@ -1,0 +1,44 @@
+#banner{
+	background: url("/fileadmin/templates_de/img/OG41-sliderframe.png");
+	padding: 10px 7px 0;
+	height: 266px;
+	width: 582px;
+	position: relative;
+	left: -8px;
+}
+
+#leftcontent{
+	background: none;
+}
+
+
+.lof-menuitems{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	background: url("/fileadmin/templates_de/img/OG41-news-slider-bg-image.png") repeat-y;
+	padding: 3px 0 3px 0;
+}
+
+.lof-slider_1 .lof-navigator{
+	position:relative;
+}
+
+.lof-slider_1 .lof-navigator li{
+	display:inline;
+	float: none;
+}
+
+.lof-navigator ul{
+	display: inline;
+}
+
+.lof-navigator li{
+	display:inline;
+}
+
+#leftcontent-head, #leftcontent-body,#leftcontent-footer{
+	background: none;
+	margin: 0px;
+	padding: 0px;
+}
